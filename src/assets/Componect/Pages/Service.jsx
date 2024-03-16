@@ -3,8 +3,8 @@
 const Service = () => {
     return (
         <div className="mb-3">
-            <h1 className="text-5xl text-center  my-7">Services</h1>
-            <div className="flex gap-6 justify-center ">
+            <h1 className="text-5xl text-center  my-7 ">Services</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-3 md:py-0 justify-center ">
                 <div className="card w-full  bg-base-100 shadow-xl ">
                     <figure><img className="h-60 rounded-2xl" src="https://my-personal-site-c3e85.web.app/assets/frontend-hQNQEZRO.jpg" alt="Shoes" /></figure>
                     <div className="card-body">
